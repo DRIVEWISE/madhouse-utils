@@ -28,7 +28,12 @@ function progress_bar( input, varargin )
     %
     % Usage
     % -----
-    %  - progress_bar(start, stop, step, idx, type)
+    %  - progress_bar( percentage )
+    %  - progress_bar( index, stop_index )
+    %  - progress_bar( index, stop_index, start_index )
+    %  - progress_bar( index, stop_index, start_index, step_size )
+    %  - progress_bar( ..., 'Type', type )
+    %  - progress_bar( ..., 'StepSize', step_size )
     %
 
     % Process the inputs
